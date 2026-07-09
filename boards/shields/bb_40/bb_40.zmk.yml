@@ -3,7 +3,7 @@ id: bb_40
 name: bb-40
 type: shield
 
-url: https://github.com/rriver/zmk-config-bb-40
+url: https://github.com/rriver/zmk-config-bb-40-v2
 
 features:
   - keys
