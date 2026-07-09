@@ -1,7 +1,7 @@
 if SHIELD_BB_40_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "bb-40"
+    default "bb-40 v2"
 
 config ZMK_BLE
     default y
