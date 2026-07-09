@@ -1,0 +1,19 @@
+file_format: "1"
+id: bb_40
+name: bb-40
+type: shield
+
+url: https://github.com/rriver/zmk-config-bb-40
+
+features:
+  - keys
+  - encoder
+  - pointer
+  - studio
+
+requires:
+  - seeed_xiao
+
+siblings:
+  - bb_40_left
+  - bb_40_right

@@ -1,0 +1,108 @@
+#include "bb_40.dtsi"
+#include <input/processors.dtsi>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+
+
+&default_transform {
+    col-offset = <6>;
+};
+
+&kscan {
+    row-gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+    
+    col-gpios = <&xiao_d 4 GPIO_ACTIVE_HIGH>,
+                <&xiao_d 3 GPIO_ACTIVE_HIGH>,
+                <&xiao_d 2 GPIO_ACTIVE_HIGH>,
+                <&xiao_d 1 GPIO_ACTIVE_HIGH>,
+                <&xiao_d 0 GPIO_ACTIVE_HIGH>;
+};
+
+&pinctrl {
+    trackball_spi_default: trackball_spi_default { /* 通常時(SPI通信中)のピン構成 */
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,   /* D8  / P1.13 / SCLK */
+                    <NRF_PSEL(SPIM_MOSI, 1, 14)>,  /* D9  / P1.14 / SDIO */
+                    <NRF_PSEL(SPIM_MISO, 1, 14)>;  /* D9  / P1.14 / SDIO */
+        };
+    };
+
+    trackball_spi_sleep: trackball_spi_sleep { /* スリープ時のピン構成(省電力) */
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,   /* D8  / P1.13 / SCLK */
+                    <NRF_PSEL(SPIM_MOSI, 1, 14)>,  /* D9  / P1.14 / SDIO */
+                    <NRF_PSEL(SPIM_MISO, 1, 14)>;  /* D9  / P1.14 / SDIO */
+            low-power-enable;
+        };
+    };
+};
+
+
+&spi0 {
+    status = "okay";
+    compatible = "nordic,nrf-spim";
+
+    pinctrl-0 = <&trackball_spi_default>;
+    pinctrl-1 = <&trackball_spi_sleep>;
+    pinctrl-names = "default", "sleep";
+
+    cs-gpios = <&gpio1 12 GPIO_ACTIVE_LOW>;  /* D7 / P1.12 / CS */
+
+    trackball_sensor: trackball_sensor@0 {
+        status = "okay";
+        compatible = "pixart,paw3222";  /* トラボセンサ用のドライバとバインド */
+        reg = <0>;
+        spi-max-frequency = <2000000>;
+
+        irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; /* D6 / P1.11 / MOTION */
+    };
+};
+
+// Overrides for the input listener node
+&trackball_central_listener {
+    status = "okay";
+    device = <&trackball_sensor>;
+
+    /* レイヤー3：横スクロールを実質無効化（=縦のみ） */
+    scroller {
+        layers = <3>;
+        input-processors = 
+            <&zip_xy_to_scroll_mapper>,                         // スクロールモードに変更
+            <&no_hscroll 1 1000>,                               // 横スクロールだけ実質ゼロ化
+            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   // スクロールのX軸反転
+            <&zip_scroll_scaler 1 7>;                           // スクロール量を1/5倍から1/7倍に変更
+    };
+
+    /* レイヤー2：縦スクロールを実質無効化（=横のみ） */
+    scroller_v {
+        layers = <1>;
+        input-processors = 
+            <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       // X軸反転
+            <&zip_xy_to_scroll_mapper>,                         // スクロールモードに変更
+            <&no_vscroll 1 1000>,                               // 縦スクロールだけ実質ゼロ化
+            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   // スクロールのX軸反転
+            <&zip_scroll_scaler 1 8>;                           // スクロール量を1/8倍に変更
+    };
+
+};
+
+/ {
+    /* 横スクロール（HWHEEL）、縦スクロール（VWHEEL）だけを対象にする scaler を定義 */
+    input_processors {
+        no_hscroll: no_hscroll {
+            compatible = "zmk,input-processor-scaler";
+            #input-processor-cells = <2>;
+            type = <INPUT_EV_REL>;
+            codes = <INPUT_REL_HWHEEL>;
+        };
+
+        no_vscroll: no_vscroll {
+            compatible = "zmk,input-processor-scaler";
+            #input-processor-cells = <2>;
+            type = <INPUT_EV_REL>;
+            codes = <INPUT_REL_WHEEL>;
+        };
+    };
+};
