@@ -102,7 +102,7 @@
 &kp EXCL           &kp AT         &kp HASH           &kp DOLLAR         &kp PERCENT            &kp CARET             &kp AMPERSAND             &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LC(LA(ENTER))  &kp LC(LA(E))  &kp LC(LA(LEFT))   &kp LA(LC(RIGHT))  &kp LA(LC(G))          &kp MINUS             &kp EQUAL                 &kp COLON      &kp SEMI              &kp SINGLE_QUOTE
 &trans             &trans         &kp LS(LA(LG(C)))  &kp LS(LA(LG(V)))  &kp LS(LG(V))          &kp LA(LEFT_BRACKET)  &kp LS(LA(LEFT_BRACKET))  &kp BACKSLASH  &kp GRAVE             &trans
-&trans             &trans         &trans             &trans             &trans         &trans  &kp LC(RIGHT)         &kp LC(LEFT)                             &trans                &trans
+&trans             &trans         &trans             &trans             &trans         &trans  &kp LC(LEFT)          &kp LC(RIGHT)                            &trans                &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
