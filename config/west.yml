@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: rriver
-      url-base: https://github.com/rriver/
+      url-base: https://github.com/rriver
     - name: sekigon-gonnoc  # <-- PAW3222
       url-base: https://github.com/sekigon-gonnoc
     - name: zettaface  # <-- Input Processor Keybind
@@ -12,8 +12,8 @@ manifest:
       url-base: https://github.com/kot149
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.3.0
+      remote: rriver
+      revision: ec11-debounce-v0.3.0
       import: app/west.yml
     - name: zmk-driver-paw3222
       remote: sekigon-gonnoc
