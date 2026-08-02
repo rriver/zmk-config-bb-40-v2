@@ -29,18 +29,18 @@ layers:
   - N
   - M
   - {t: ',', h: '1'}
-  - '&mouse_gesture_kp 0 DOT'
+  - $$fa:solid/computer-mouse$$
   - {t: /, h: ⇧}
   - ⌃
   - ⌥
   - ⌘
-  - {t: '&to_layer_0 LANGUAGE_2', h: '1'}
+  - {t: $$language-japanese$$, h: '1'}
   - {t: ⌫, h: '2'}
-  - {t: LANGUAGE 1, h: '3'}
+  - {t: $$language-latin$$, h: '3'}
   - ⌘
   - {t: SPACE, h: '3'}
   - $$fa:solid/globe$$
-  - {t: ⎋, h: '4'}
+  - {t: ESC, h: '4'}
   '1':
   - '!'
   - '@'
@@ -83,10 +83,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - ⎋
+  - ESC
   - '`'
   - $$fa:solid/backward-step$$
-  - $$fa:solid/circle-play$$
+  - $$fa:solid/play$$
   - $$fa:solid/forward-step$$
   - ⌥]
   - ⇧⌥]
@@ -99,10 +99,10 @@ layers:
   - {t: ▽, type: trans}
   - ⌃↑
   - ⌥-
-  - '&mkp MB1'
+  - MB1
   - {t: ↑, type: held}
-  - '&mkp MB2'
-  - '&mkp MB2'
+  - MB2
+  - MB2
   - {t: ▽, type: trans}
   - ⌘⌥
   - ⌥⇧
@@ -158,7 +158,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
+  - MB3
   - {t: ▽, type: trans}
   - ⌘⌥C
   - ⌘⇧C
@@ -217,9 +217,9 @@ layers:
   - '9'
   - '-'
   - {t: ▽, type: trans}
-  - '&mkp MB2'
+  - MB2
   - {type: held}
-  - '&mkp MB1'
+  - MB1
   - {t: ▽, type: trans}
   - /
   - '4'
@@ -229,7 +229,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
+  - MB3
   - {t: ▽, type: trans}
   - '0'
   - '1'

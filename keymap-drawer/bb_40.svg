@@ -3,14 +3,17 @@
 <svg id="fa:solid/backward-step">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M363 36.8c-12.9-7-28.7-6.3-41 1.8L64 208.1 64 64c0-17.7-14.3-32-32-32S0 46.3 0 64L0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144.1 258 169.6c12.3 8.1 28 8.8 41 1.8s21-20.5 21-35.2l0-368c0-14.7-8.1-28.2-21-35.2z"/></svg>
 </svg>
-<svg id="fa:solid/circle-play">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M0 256a256 256 0 1 1 512 0 256 256 0 1 1 -512 0zM188.3 147.1c-7.6 4.2-12.3 12.3-12.3 20.9l0 176c0 8.7 4.7 16.7 12.3 20.9s16.8 4.1 24.3-.5l144-88c7.1-4.4 11.5-12.1 11.5-20.5s-4.4-16.1-11.5-20.5l-144-88c-7.4-4.5-16.7-4.7-24.3-.5z"/></svg>
+<svg id="fa:solid/computer-mouse">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M0 192l168 0 0-192-8 0C71.6 0 0 71.6 0 160l0 32zm0 48L0 352c0 88.4 71.6 160 160 160l64 0c88.4 0 160-71.6 160-160l0-112-384 0zm384-48l0-32C384 71.6 312.4 0 224 0l-8 0 0 192 168 0z"/></svg>
 </svg>
 <svg id="fa:solid/forward-step">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M21 36.8c12.9-7 28.7-6.3 41 1.8L320 208.1 320 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 384c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-144.1-258 169.6c-12.3 8.1-28 8.8-41 1.8S0 454.7 0 440L0 72C0 57.3 8.1 43.8 21 36.8z"/></svg>
 </svg>
 <svg id="fa:solid/globe">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M351.9 280l-190.9 0c2.9 64.5 17.2 123.9 37.5 167.4 11.4 24.5 23.7 41.8 35.1 52.4 11.2 10.5 18.9 12.2 22.9 12.2s11.7-1.7 22.9-12.2c11.4-10.6 23.7-28 35.1-52.4 20.3-43.5 34.6-102.9 37.5-167.4zM160.9 232l190.9 0C349 167.5 334.7 108.1 314.4 64.6 303 40.2 290.7 22.8 279.3 12.2 268.1 1.7 260.4 0 256.4 0s-11.7 1.7-22.9 12.2c-11.4 10.6-23.7 28-35.1 52.4-20.3 43.5-34.6 102.9-37.5 167.4zm-48 0C116.4 146.4 138.5 66.9 170.8 14.7 78.7 47.3 10.9 131.2 1.5 232l111.4 0zM1.5 280c9.4 100.8 77.2 184.7 169.3 217.3-32.3-52.2-54.4-131.7-57.9-217.3L1.5 280zm398.4 0c-3.5 85.6-25.6 165.1-57.9 217.3 92.1-32.7 159.9-116.5 169.3-217.3l-111.4 0zm111.4-48C501.9 131.2 434.1 47.3 342 14.7 374.3 66.9 396.4 146.4 399.9 232l111.4 0z"/></svg>
+</svg>
+<svg id="fa:solid/play">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M91.2 36.9c-12.4-6.8-27.4-6.5-39.6 .7S32 57.9 32 72l0 368c0 14.1 7.5 27.2 19.6 34.4s27.2 7.5 39.6 .7l336-184c12.8-7 20.8-20.5 20.8-35.1s-8-28.1-20.8-35.1l-336-184z"/></svg>
 </svg>
 <svg id="fa:solid/trash-can">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M136.7 5.9C141.1-7.2 153.3-16 167.1-16l113.9 0c13.8 0 26 8.8 30.4 21.9L320 32 416 32c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 8.7-26.1zM32 144l384 0 0 304c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-304zm88 64c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24zm104 0c-13.3 0-24 10.7-24 24l0 192c0 13.3 10.7 24 24 24s24-10.7 24-24l0-192c0-13.3-10.7-24-24-24z"/></svg>
@@ -20,6 +23,20 @@
 </svg>
 <svg id="fa:solid/volume-low">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M48 352l48 0 134.1 119.2c6.4 5.7 14.6 8.8 23.1 8.8 19.2 0 34.8-15.6 34.8-34.8l0-378.4c0-19.2-15.6-34.8-34.8-34.8-8.5 0-16.7 3.1-23.1 8.8L96 160 48 160c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48zM380.6 181.5c-10.3-8.4-25.4-6.8-33.8 3.5s-6.8 25.4 3.5 33.8C361.1 227.6 368 241 368 256s-6.9 28.4-17.7 37.3c-10.3 8.4-11.8 23.5-3.5 33.8s23.5 11.8 33.8 3.5C402.1 312.9 416 286.1 416 256s-13.9-56.9-35.5-74.5z"/></svg>
+</svg>
+<svg id="language-japanese">
+<svg viewBox="0 0 44 34" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" rx="8" fill="#dcecff"/>
+  <text x="22" y="24" text-anchor="middle" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="21" font-weight="600" fill="#174a76">あ</text>
+</svg>
+
+</svg>
+<svg id="language-latin">
+<svg viewBox="0 0 44 34" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" rx="8" fill="#dcecff"/>
+  <text x="22" y="24" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#174a76">A</text>
+</svg>
+
 </svg>
 </defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
@@ -292,9 +309,7 @@ rect.combo {
 </a></g>
 <g transform="translate(644, 140)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 64%">&amp;mouse_ges…</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">DOT</tspan>
-</text>
+<use href="#fa:solid/computer-mouse" xlink:href="#fa:solid/computer-mouse" x="-9" y="-12" height="24" width="18.0" class="key tap glyph fa:solid/computer-mouse"/>
 </g>
 <g transform="translate(700, 162)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -315,9 +330,7 @@ rect.combo {
 </g>
 <g transform="translate(196, 218)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.9em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">LANGUAGE_2</tspan>
-</text>
+<use href="#language-japanese" xlink:href="#language-japanese" x="-16" y="-12" height="24" width="31.058823529411764" class="key tap glyph language-japanese"/>
 <a href="#x_x">
 <text x="0" y="24" class="key hold layer-activator">1</text>
 </a></g>
@@ -329,9 +342,7 @@ rect.combo {
 </a></g>
 <g transform="translate(308, 218)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.9em" style="font-size: 88%">LANGUAGE</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">1</tspan>
-</text>
+<use href="#language-latin" xlink:href="#language-latin" x="-16" y="-12" height="24" width="31.058823529411764" class="key tap glyph language-latin"/>
 <a href="#x_x">
 <text x="0" y="24" class="key hold layer-activator">3</text>
 </a></g>
@@ -347,11 +358,11 @@ rect.combo {
 </a></g>
 <g transform="translate(644, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/globe" xlink:href="#fa:solid/globe" x="-7" y="-7" height="14" width="14.0" class="key tap glyph fa:solid/globe"/>
+<use href="#fa:solid/globe" xlink:href="#fa:solid/globe" x="-12" y="-12" height="24" width="24.0" class="key tap glyph fa:solid/globe"/>
 </g>
 <g transform="translate(700, 218)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⎋</text>
+<text x="0" y="0" class="key tap">ESC</text>
 <a href="#x_x">
 <text x="0" y="24" class="key hold layer-activator">4</text>
 </a></g>
@@ -539,7 +550,7 @@ rect.combo {
 <g transform="translate(0, 56)">
 <g transform="translate(28, 50)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⎋</text>
+<text x="0" y="0" class="key tap">ESC</text>
 </g>
 <g transform="translate(84, 28)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -547,15 +558,15 @@ rect.combo {
 </g>
 <g transform="translate(140, 28)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/backward-step" xlink:href="#fa:solid/backward-step" x="-5" y="-7" height="14" width="10.5" class="key tap glyph fa:solid/backward-step"/>
+<use href="#fa:solid/backward-step" xlink:href="#fa:solid/backward-step" x="-9" y="-12" height="24" width="18.0" class="key tap glyph fa:solid/backward-step"/>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/circle-play" xlink:href="#fa:solid/circle-play" x="-7" y="-7" height="14" width="14.0" class="key tap glyph fa:solid/circle-play"/>
+<use href="#fa:solid/play" xlink:href="#fa:solid/play" x="-10" y="-12" height="24" width="21.0" class="key tap glyph fa:solid/play"/>
 </g>
 <g transform="translate(252, 28)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/forward-step" xlink:href="#fa:solid/forward-step" x="-5" y="-7" height="14" width="10.5" class="key tap glyph fa:solid/forward-step"/>
+<use href="#fa:solid/forward-step" xlink:href="#fa:solid/forward-step" x="-9" y="-12" height="24" width="18.0" class="key tap glyph fa:solid/forward-step"/>
 </g>
 <g transform="translate(476, 28)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -603,9 +614,7 @@ rect.combo {
 </g>
 <g transform="translate(532, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB1</tspan>
-</text>
+<text x="0" y="0" class="key tap">MB1</text>
 </g>
 <g transform="translate(588, 84)" class="key held keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
@@ -613,15 +622,11 @@ rect.combo {
 </g>
 <g transform="translate(644, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB2</tspan>
-</text>
+<text x="0" y="0" class="key tap">MB2</text>
 </g>
 <g transform="translate(700, 106)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB2</tspan>
-</text>
+<text x="0" y="0" class="key tap">MB2</text>
 </g>
 <g transform="translate(28, 162)" class="key trans keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -685,7 +690,7 @@ rect.combo {
 </g>
 <g transform="translate(308, 218)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/trash-can" xlink:href="#fa:solid/trash-can" x="-6" y="-7" height="14" width="12.25" class="key tap glyph fa:solid/trash-can"/>
+<use href="#fa:solid/trash-can" xlink:href="#fa:solid/trash-can" x="-10" y="-12" height="24" width="21.0" class="key tap glyph fa:solid/trash-can"/>
 </g>
 <g transform="translate(420, 162)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -826,11 +831,11 @@ rect.combo {
 </g>
 <g transform="translate(588, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/backward-step" xlink:href="#fa:solid/backward-step" x="-5" y="-7" height="14" width="10.5" class="key tap glyph fa:solid/backward-step"/>
+<use href="#fa:solid/backward-step" xlink:href="#fa:solid/backward-step" x="-9" y="-12" height="24" width="18.0" class="key tap glyph fa:solid/backward-step"/>
 </g>
 <g transform="translate(644, 140)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/forward-step" xlink:href="#fa:solid/forward-step" x="-5" y="-7" height="14" width="10.5" class="key tap glyph fa:solid/forward-step"/>
+<use href="#fa:solid/forward-step" xlink:href="#fa:solid/forward-step" x="-9" y="-12" height="24" width="18.0" class="key tap glyph fa:solid/forward-step"/>
 </g>
 <g transform="translate(700, 162)" class="key trans keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -854,9 +859,7 @@ rect.combo {
 </g>
 <g transform="translate(252, 218)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB3</tspan>
-</text>
+<text x="0" y="0" class="key tap">MB3</text>
 </g>
 <g transform="translate(308, 218)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -998,11 +1001,11 @@ rect.combo {
 </g>
 <g transform="translate(476, 140)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/volume-low" xlink:href="#fa:solid/volume-low" x="-6" y="-7" height="14" width="12.25" class="key tap glyph fa:solid/volume-low"/>
+<use href="#fa:solid/volume-low" xlink:href="#fa:solid/volume-low" x="-10" y="-12" height="24" width="21.0" class="key tap glyph fa:solid/volume-low"/>
 </g>
 <g transform="translate(532, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/volume-high" xlink:href="#fa:solid/volume-high" x="-9" y="-7" height="14" width="17.5" class="key tap glyph fa:solid/volume-high"/>
+<use href="#fa:solid/volume-high" xlink:href="#fa:solid/volume-high" x="-15" y="-12" height="24" width="30.0" class="key tap glyph fa:solid/volume-high"/>
 </g>
 <g transform="translate(588, 140)" class="key trans keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1114,18 +1117,14 @@ rect.combo {
 </g>
 <g transform="translate(84, 84)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB2</tspan>
-</text>
+<text x="0" y="0" class="key tap">MB2</text>
 </g>
 <g transform="translate(140, 84)" class="key held keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB1</tspan>
-</text>
+<text x="0" y="0" class="key tap">MB1</text>
 </g>
 <g transform="translate(252, 84)" class="key trans keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1166,9 +1165,7 @@ rect.combo {
 </g>
 <g transform="translate(196, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB3</tspan>
-</text>
+<text x="0" y="0" class="key tap">MB3</text>
 </g>
 <g transform="translate(252, 140)" class="key trans keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
