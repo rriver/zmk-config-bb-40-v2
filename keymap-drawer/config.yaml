@@ -29,13 +29,19 @@ draw_config:
     rect.combo,
     rect.combo-separate,
     rect.combo.held {
-      fill: #dddddd;
+      fill: #cccccc;
     }
 
     rect.key,
     rect.combo {
       stroke: #c9cccf;
       stroke-width: 1;
+    }
+
+    text.label {
+      font-size: 20px;
+      font-weight: 700;
+      transform: translateY(14px);
     }
 
 parse_config:
