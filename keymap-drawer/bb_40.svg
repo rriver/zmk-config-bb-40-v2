@@ -165,19 +165,19 @@ path.combo {
 /* End Tabler Icons Cleanup */
 
 svg.keymap {
-  background-color: #ccc;
+  background-color: #bbbbbb;
   font-family: Inter, sans-serif;
   fill: #24292e;
 }
 
 rect.key {
-  fill: #ffffff;
+  fill: #eeeeee;
 }
 
 rect.combo,
 rect.combo-separate,
 rect.combo.held {
-  fill: #dddddd;
+  fill: #ffffff;
 }
 
 rect.key,
@@ -189,6 +189,7 @@ rect.combo {
 text.label {
   font-size: 20px;
   font-weight: 700;
+  stroke: none;
   transform: translateY(20px);
 }
 </style>
