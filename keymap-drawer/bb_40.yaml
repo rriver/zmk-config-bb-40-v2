@@ -35,11 +35,11 @@ layers:
   - ⌥
   - ⌘
   - {t: '&to_layer_0 LANGUAGE_2', h: '1'}
-  - {t: ⌫, h: '2'}
+  - {t: '$$fa:solid/delete-left$$', h: '2'}
   - {t: LANGUAGE 1, h: '3'}
   - ⌘
   - {t: SPACE, h: '3'}
-  - 🌐
+  - $$fa:solid/globe$$
   - {t: ESC, h: '4'}
   '1':
   - '!'
@@ -85,9 +85,9 @@ layers:
   '2':
   - ESCAPE
   - '`'
-  - ⏮
-  - ⏯
-  - ⏭
+  - $$fa:solid/backward-step$$
+  - $$fa:solid/circle-play$$
+  - $$fa:solid/forward-step$$
   - ⌥]
   - ⇧⌥]
   - '['
@@ -118,7 +118,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⌦
+  - $$fa:solid/trash-can$$
   - ⇧⌘SPACE
   - ⌥SPACE
   - {t: ▽, type: trans}
@@ -151,8 +151,8 @@ layers:
   - .
   - ⇧⌘4
   - PP
-  - ⏮
-  - ⏭
+  - $$fa:solid/backward-step$$
+  - $$fa:solid/forward-step$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,8 +190,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME DOWN
-  - VOLUME UP
+  - $$fa:solid/volume-low$$
+  - $$fa:solid/volume-high$$
   - {t: ▽, type: trans}
   - BT CLR ALL
   - BT CLR
