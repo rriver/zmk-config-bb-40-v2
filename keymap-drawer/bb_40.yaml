@@ -35,7 +35,7 @@ layers:
   - ⌥
   - ⌘
   - {t: '&to_layer_0 LANGUAGE_2', h: '1'}
-  - {t: BACKSPACE, h: '2'}
+  - {t: ⌫, h: '2'}
   - {t: LANGUAGE 1, h: '3'}
   - ⌘
   - {t: SPACE, h: '3'}
@@ -93,7 +93,7 @@ layers:
   - '['
   - ']'
   - '0'
-  - TAB
+  - ⇥
   - ⌥TAB
   - ⌃TAB
   - {t: ▽, type: trans}
@@ -118,7 +118,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
+  - ⌦
   - ⇧⌘SPACE
   - ⌥SPACE
   - {t: ▽, type: trans}
