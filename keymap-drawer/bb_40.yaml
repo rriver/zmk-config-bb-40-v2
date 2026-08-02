@@ -20,7 +20,7 @@ layers:
   - J
   - {t: K, h: '2'}
   - L
-  - {t: ENTER, h: ⇧}
+  - {t: ⏎, h: ⇧}
   - {t: Z, h: ⇧}
   - X
   - C
@@ -100,7 +100,7 @@ layers:
   - ⌃UP ARROW
   - ⌥-
   - '&mkp MB1'
-  - {t: UP, type: held}
+  - {t: ↑, type: held}
   - '&mkp MB2'
   - '&mkp MB2'
   - {t: ▽, type: trans}
@@ -109,9 +109,9 @@ layers:
   - ⌥
   - ⌃DOWN
   - HOME
-  - LEFT
-  - DOWN
-  - RIGHT
+  - ←
+  - ↓
+  - →
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
