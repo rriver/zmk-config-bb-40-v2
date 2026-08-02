@@ -1,7 +1,7 @@
 draw_config:
   dark_mode: false
   glyph_tap_size: 15
-  outer_pad_h: 84
+  outer_pad_h: 100
 
   glyphs:
     language-latin: |
@@ -29,7 +29,7 @@ draw_config:
     rect.combo,
     rect.combo-separate,
     rect.combo.held {
-      fill: #cccccc;
+      fill: #dddddd;
     }
 
     rect.key,
@@ -41,7 +41,7 @@ draw_config:
     text.label {
       font-size: 20px;
       font-weight: 700;
-      transform: translateY(14px);
+      transform: translateY(20px);
     }
 
 parse_config:
