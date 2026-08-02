@@ -52,10 +52,10 @@ layers:
   - '*'
   - {t: (, type: held}
   - )
-  - ⌃⌥ENTER
+  - ⌃⌥⏎
   - ⌃⌥E
-  - ⌃⌥LEFT
-  - ⌥⌃RIGHT
+  - ⌃⌥←
+  - ⌥⌃→
   - ⌥⌃G
   - '-'
   - '='
@@ -104,7 +104,7 @@ layers:
   - '&mkp MB2'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - ⌘LEFT ALT
+  - ⌘⌥
   - ⌥⇧
   - ⌥
   - ⌃↓
