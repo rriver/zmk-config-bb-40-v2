@@ -85,17 +85,17 @@ layers:
   '2':
   - ESCAPE
   - '`'
-  - PREVIOUS
+  - ⏮
   - ⏯
-  - NEXT
+  - ⏭
   - ⌥]
   - ⇧⌥]
   - '['
   - ']'
   - '0'
   - ⇥
-  - ⌥TAB
-  - ⌃TAB
+  - ⌥⇥
+  - ⌃⇥
   - {t: ▽, type: trans}
   - ⌃↑
   - ⌥-
@@ -105,7 +105,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - ⌘LEFT ALT
-  - ⌥LEFT SHIFT
+  - ⌥⇧
   - ⌥
   - ⌃↓
   - HOME
@@ -151,8 +151,8 @@ layers:
   - .
   - ⇧⌘4
   - PP
-  - PREVIOUS
-  - NEXT
+  - ⏮
+  - ⏭
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
