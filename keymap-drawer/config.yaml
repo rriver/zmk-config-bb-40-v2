@@ -58,6 +58,33 @@ parse_config:
     "&mt RIGHT_SHIFT SLASH":
       t: "/"
       h: "⇧"
+    
+    # Control + 矢印
+    "&kp LC(LEFT)": "⌃←"
+    "&kp LC(RIGHT)": "⌃→"
+    "&kp LC(UP)": "⌃↑"
+    "&kp LC(UP_ARROW)": "⌃↑"
+    "&kp LC(DOWN)": "⌃↓"
+
+    # Option + 矢印
+    "&kp LA(LEFT)": "⌥←"
+    "&kp LA(RIGHT)": "⌥→"
+    "&kp LA(UP)": "⌥↑"
+    "&kp LA(DOWN)": "⌥↓"
+
+    # Command + 矢印
+    "&kp LG(LEFT)": "⌘←"
+    "&kp LG(LEFT_ARROW)": "⌘←"
+    "&kp LG(RIGHT)": "⌘→"
+    "&kp LG(RIGHT_ARROW)": "⌘→"
+    "&kp LG(UP)": "⌘↑"
+    "&kp LG(DOWN)": "⌘↓"
+
+    # Shift + 矢印
+    "&kp LS(LEFT)": "⇧←"
+    "&kp LS(RIGHT)": "⇧→"
+    "&kp LS(UP)": "⇧↑"
+    "&kp LS(DOWN)": "⇧↓"
 
   # LC()、LA()、LG()、LS()内の修飾キー表記
   modifier_fn_map:
