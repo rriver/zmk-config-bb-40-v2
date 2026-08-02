@@ -165,13 +165,19 @@ path.combo {
 /* End Tabler Icons Cleanup */
 
 svg.keymap {
-  background-color: #dddddd;
+  background-color: #ccc;
   font-family: Inter, sans-serif;
   fill: #24292e;
 }
 
 rect.key {
   fill: #ffffff;
+}
+
+rect.combo,
+rect.combo-separate,
+rect.combo.held {
+  fill: #dddddd;
 }
 
 rect.key,
@@ -329,7 +335,7 @@ rect.combo {
 </g>
 <g transform="translate(196, 218)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#language-japanese" xlink:href="#language-japanese" x="-10" y="-8" height="16" width="20.705882352941178" class="key tap glyph language-japanese"/>
+<use href="#language-japanese" xlink:href="#language-japanese" x="-10" y="-8" height="15" width="19.41176470588235" class="key tap glyph language-japanese"/>
 <a href="#x_x">
 <text x="0" y="24" class="key hold layer-activator">1</text>
 </a></g>
@@ -341,7 +347,7 @@ rect.combo {
 </a></g>
 <g transform="translate(308, 218)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#language-latin" xlink:href="#language-latin" x="-10" y="-8" height="16" width="20.705882352941178" class="key tap glyph language-latin"/>
+<use href="#language-latin" xlink:href="#language-latin" x="-10" y="-8" height="15" width="19.41176470588235" class="key tap glyph language-latin"/>
 <a href="#x_x">
 <text x="0" y="24" class="key hold layer-activator">3</text>
 </a></g>
@@ -357,7 +363,7 @@ rect.combo {
 </a></g>
 <g transform="translate(644, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/globe" xlink:href="#fa:solid/globe" x="-8" y="-8" height="16" width="16.0" class="key tap glyph fa:solid/globe"/>
+<use href="#fa:solid/globe" xlink:href="#fa:solid/globe" x="-8" y="-8" height="15" width="15.0" class="key tap glyph fa:solid/globe"/>
 </g>
 <g transform="translate(700, 218)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -371,7 +377,7 @@ rect.combo {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="602" y="15" width="28" height="26" class="combo"/>
-<use href="#fa:solid/computer-mouse" xlink:href="#fa:solid/computer-mouse" x="610" y="20" height="16" width="12.0" class="combo tap glyph fa:solid/computer-mouse"/>
+<use href="#fa:solid/computer-mouse" xlink:href="#fa:solid/computer-mouse" x="610" y="20" height="15" width="11.25" class="combo tap glyph fa:solid/computer-mouse"/>
 </g>
 </g>
 </g>
@@ -557,15 +563,15 @@ rect.combo {
 </g>
 <g transform="translate(140, 28)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/backward-step" xlink:href="#fa:solid/backward-step" x="-6" y="-8" height="16" width="12.0" class="key tap glyph fa:solid/backward-step"/>
+<use href="#fa:solid/backward-step" xlink:href="#fa:solid/backward-step" x="-6" y="-8" height="15" width="11.25" class="key tap glyph fa:solid/backward-step"/>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/play" xlink:href="#fa:solid/play" x="-7" y="-8" height="16" width="14.0" class="key tap glyph fa:solid/play"/>
+<use href="#fa:solid/play" xlink:href="#fa:solid/play" x="-7" y="-8" height="15" width="13.125" class="key tap glyph fa:solid/play"/>
 </g>
 <g transform="translate(252, 28)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/forward-step" xlink:href="#fa:solid/forward-step" x="-6" y="-8" height="16" width="12.0" class="key tap glyph fa:solid/forward-step"/>
+<use href="#fa:solid/forward-step" xlink:href="#fa:solid/forward-step" x="-6" y="-8" height="15" width="11.25" class="key tap glyph fa:solid/forward-step"/>
 </g>
 <g transform="translate(476, 28)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -830,11 +836,11 @@ rect.combo {
 </g>
 <g transform="translate(588, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/backward-step" xlink:href="#fa:solid/backward-step" x="-6" y="-8" height="16" width="12.0" class="key tap glyph fa:solid/backward-step"/>
+<use href="#fa:solid/backward-step" xlink:href="#fa:solid/backward-step" x="-6" y="-8" height="15" width="11.25" class="key tap glyph fa:solid/backward-step"/>
 </g>
 <g transform="translate(644, 140)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/forward-step" xlink:href="#fa:solid/forward-step" x="-6" y="-8" height="16" width="12.0" class="key tap glyph fa:solid/forward-step"/>
+<use href="#fa:solid/forward-step" xlink:href="#fa:solid/forward-step" x="-6" y="-8" height="15" width="11.25" class="key tap glyph fa:solid/forward-step"/>
 </g>
 <g transform="translate(700, 162)" class="key trans keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1000,11 +1006,11 @@ rect.combo {
 </g>
 <g transform="translate(476, 140)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/volume-low" xlink:href="#fa:solid/volume-low" x="-7" y="-8" height="16" width="14.0" class="key tap glyph fa:solid/volume-low"/>
+<use href="#fa:solid/volume-low" xlink:href="#fa:solid/volume-low" x="-7" y="-8" height="15" width="13.125" class="key tap glyph fa:solid/volume-low"/>
 </g>
 <g transform="translate(532, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/volume-high" xlink:href="#fa:solid/volume-high" x="-10" y="-8" height="16" width="20.0" class="key tap glyph fa:solid/volume-high"/>
+<use href="#fa:solid/volume-high" xlink:href="#fa:solid/volume-high" x="-9" y="-8" height="15" width="18.75" class="key tap glyph fa:solid/volume-high"/>
 </g>
 <g transform="translate(588, 140)" class="key trans keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1024,7 +1030,7 @@ rect.combo {
 </g>
 <g transform="translate(28, 218)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/gear" xlink:href="#fa:solid/gear" x="-8" y="-8" height="16" width="16.0" class="key tap glyph fa:solid/gear"/>
+<use href="#fa:solid/gear" xlink:href="#fa:solid/gear" x="-8" y="-8" height="15" width="15.0" class="key tap glyph fa:solid/gear"/>
 </g>
 <g transform="translate(84, 196)" class="key trans keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1052,7 +1058,7 @@ rect.combo {
 </g>
 <g transform="translate(420, 218)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#fa:solid/gear" xlink:href="#fa:solid/gear" x="-8" y="-8" height="16" width="16.0" class="key tap glyph fa:solid/gear"/>
+<use href="#fa:solid/gear" xlink:href="#fa:solid/gear" x="-8" y="-8" height="15" width="15.0" class="key tap glyph fa:solid/gear"/>
 </g>
 <g transform="translate(644, 196)" class="key trans keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
