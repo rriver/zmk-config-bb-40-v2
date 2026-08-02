@@ -123,7 +123,22 @@ path.combo {
     visibility: hidden;
 }
 /* End Tabler Icons Cleanup */
-</style>
+
+@font-face {
+  font-family: "Inter Embedded";
+  src: url("data:font/woff2;base64,BASE64文字列") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+}
+
+svg.keymap {
+  background-color: #ffffff;
+  font-family: "Inter Embedded", sans-serif;
+}
+
+rect.key {
+  fill: #ffffff;
+}</style>
 <g transform="translate(30, 0)" class="layer-default">
 <text x="0" y="28" class="label" id="default">default:</text>
 <g transform="translate(0, 56)">
