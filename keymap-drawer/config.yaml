@@ -1,6 +1,7 @@
 draw_config:
   dark_mode: false
   glyph_tap_size: 15
+  outer_pad_h: 84
 
   glyphs:
     language-latin: |
