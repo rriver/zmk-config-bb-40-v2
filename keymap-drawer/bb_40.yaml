@@ -20,8 +20,8 @@ layers:
   - J
   - {t: K, h: '2'}
   - L
-  - {t: ENTER, h: RIGHT SHIFT}
-  - {t: Z, h: LEFT SHIFT}
+  - {t: ENTER, h: ⇧}
+  - {t: Z, h: ⇧}
   - X
   - C
   - V
@@ -30,16 +30,16 @@ layers:
   - M
   - {t: ',', h: '1'}
   - '&mouse_gesture_kp 0 DOT'
-  - {t: /, h: RIGHT SHIFT}
-  - LEFT CONTROL
-  - LEFT ALT
-  - LEFT WIN
+  - {t: /, h: ⇧}
+  - ⌃
+  - ⌥
+  - ⌘
   - {t: '&to_layer_0 LANGUAGE_2', h: '1'}
   - {t: BACKSPACE, h: '2'}
   - {t: LANGUAGE 1, h: '3'}
-  - RIGHT GUI
+  - ⌘
   - {t: SPACE, h: '3'}
-  - GLOBE
+  - 🌐
   - {t: ESC, h: '4'}
   '1':
   - '!'
@@ -52,11 +52,11 @@ layers:
   - '*'
   - {t: (, type: held}
   - )
-  - Ctl+Alt+ENTER
-  - Ctl+Alt+E
-  - Ctl+Alt+LEFT
-  - Alt+Ctl+RIGHT
-  - Alt+Ctl+G
+  - ⌃⌥ENTER
+  - ⌃⌥E
+  - ⌃⌥LEFT
+  - ⌥⌃RIGHT
+  - ⌥⌃G
   - '-'
   - '='
   - ':'
@@ -64,11 +64,11 @@ layers:
   - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Alt+Gui+C
-  - Sft+Alt+Gui+V
-  - Sft+Gui+V
-  - Alt+[
-  - Sft+Alt+[
+  - ⇧⌥⌘C
+  - ⇧⌥⌘V
+  - ⇧⌘V
+  - ⌥[
+  - ⇧⌥[
   - \
   - '`'
   - {t: ▽, type: trans}
@@ -78,8 +78,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+LEFT
-  - Ctl+RIGHT
+  - ⌃LEFT
+  - ⌃RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
@@ -88,26 +88,26 @@ layers:
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
-  - Alt+]
-  - Sft+Alt+]
+  - ⌥]
+  - ⇧⌥]
   - '['
   - ']'
   - '0'
   - TAB
-  - Alt+TAB
-  - Ctl+TAB
+  - ⌥TAB
+  - ⌃TAB
   - {t: ▽, type: trans}
-  - Ctl+UP ARROW
-  - Alt+-
+  - ⌃UP ARROW
+  - ⌥-
   - '&mkp MB1'
   - {t: UP, type: held}
   - '&mkp MB2'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - Gui+LEFT ALT
-  - Alt+LEFT SHIFT
-  - LEFT ALT
-  - Ctl+DOWN
+  - ⌘LEFT ALT
+  - ⌥LEFT SHIFT
+  - ⌥
+  - ⌃DOWN
   - HOME
   - LEFT
   - DOWN
@@ -119,8 +119,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
-  - Sft+Gui+SPACE
-  - Alt+SPACE
+  - ⇧⌘SPACE
+  - ⌥SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
@@ -130,9 +130,9 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+LEFT
+  - ⌥LEFT
   - {type: held}
-  - Alt+RIGHT
+  - ⌥RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
@@ -140,16 +140,16 @@ layers:
   - '6'
   - '='
   - _
-  - Gui+LEFT ARROW
+  - ⌘LEFT ARROW
   - {t: ▽, type: trans}
-  - Gui+RIGHT ARROW
+  - ⌘RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: '0', h: LEFT SHIFT}
+  - {t: '0', h: ⇧}
   - '1'
   - '2'
   - '3'
   - .
-  - Sft+Gui+4
+  - ⇧⌘4
   - PP
   - PREVIOUS
   - NEXT
@@ -160,8 +160,8 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB3'
   - {t: ▽, type: trans}
-  - Gui+Alt+C
-  - Gui+Sft+C
+  - ⌘⌥C
+  - ⌘⇧C
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
