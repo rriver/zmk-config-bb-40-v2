@@ -38,7 +38,7 @@ layers:
   - {t: ⌫, h: '2'}
   - {t: $$language-latin$$, h: '3'}
   - ⌘
-  - {t: SPACE, h: '3'}
+  - {t: '$$fa:regular/window-minimize$$', h: '3'}
   - $$fa:solid/globe$$
   - {t: ESC, h: '4'}
   '1':
@@ -118,7 +118,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$fa:solid/trash-can$$
+  - ⌦
   - ⇧⌘SPACE
   - ⌥SPACE
   - {t: ▽, type: trans}
@@ -291,5 +291,5 @@ combos:
 - p: [0, 1]
   k: ⇪
 - p: [7, 8]
-  k: '&mouse_gesture'
+  k: $$fa:solid/computer-mouse$$
   l: [default]
