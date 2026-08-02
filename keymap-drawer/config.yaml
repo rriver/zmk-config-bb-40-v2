@@ -101,7 +101,9 @@ parse_config:
     C_NEXT: $$fa:solid/forward-step$$
     C_VOLUME_DOWN: $$fa:solid/volume-low$$
     C_VOLUME_UP: $$fa:solid/volume-high$$
-    BACKSPACE: $$fa:solid/delete-left$$
+    BACKSPACE: ⌫
+    ESCAPE: ⎋
+    ESC: ⎋
     TAB: ⇥
     CAPSLOCK: ⇪
     CAPS_LOCK: ⇪
