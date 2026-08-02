@@ -32,10 +32,9 @@ draw_config:
 
 parse_config:
   raw_binding_map:
-    "&kp SPACE": "$$fa:regular/window-minimize$$"
     "&mouse_gesture": "$$fa:solid/computer-mouse$$"
-    "&to_layer_0 LANGUAGE_1": "$$language-latin$$"
-    "&to_layer_0 LANGUAGE_2": "$$language-japanese$$"
+    "&to_layer_0 LANGUAGE_1": "$$language-japanese$$"
+    "&to_layer_0 LANGUAGE_2": "$$language-latin$$"
     "&mkp MB1": "MB1"
     "&mkp MB2": "MB2"
     "&mkp MB3": "MB3"
@@ -94,8 +93,8 @@ parse_config:
     DOT: .
     GREATER_THAN: '>'
     GT: '>'
-    LANGUAGE_1: $$language-latin$$
-    LANGUAGE_2: $$language-japanese$$
+    LANGUAGE_1: $$language-japanese$$
+    LANGUAGE_2: $$language-latin$$
     LEFT_BRACKET: '['
     LBKT: '['
     LEFT_BRACE: '{'
@@ -143,6 +142,7 @@ parse_config:
     UP_ARROW: ↑
     DOWN: ↓
     DOWN_ARROW: ↓
+    SPACE: "␣"
 
   modifier_fn_map:
     left_ctrl: ⌃
