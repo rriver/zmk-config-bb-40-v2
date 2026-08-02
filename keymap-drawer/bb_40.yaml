@@ -38,7 +38,7 @@ layers:
   - {t: ⌫, h: '2'}
   - {t: $$language-latin$$, h: '3'}
   - ⌘
-  - {t: '$$fa:regular/window-minimize$$', h: '3'}
+  - {t: ␣, h: '3'}
   - $$fa:solid/globe$$
   - {t: ESC, h: '4'}
   '1':
@@ -119,8 +119,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⌦
-  - ⇧⌘SPACE
-  - ⌥SPACE
+  - ⇧⌘␣
+  - ⌥␣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
@@ -195,14 +195,14 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   - BT CLR
-  - '&bootloader'
+  - $$fa:solid/gear$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bootloader'
+  - $$fa:solid/gear$$
   - {t: ▽, type: trans}
   - {type: held}
   tenkey:
