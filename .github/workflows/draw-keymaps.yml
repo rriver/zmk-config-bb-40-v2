@@ -18,7 +18,7 @@ jobs:
     with:
       keymap_patterns: "config/bb_40.keymap"
       json_path: "config"
-      config_path: "keymap_drawer.config.yaml"
+      config_path: "keymap-drawer/config.yaml"
       output_folder: "keymap-drawer"
       parse_args: ""
       draw_args: ""

@@ -1,0 +1,18 @@
+draw_config:
+  dark_mode: false
+  svg_extra_style: |
+    @font-face {
+      font-family: "Inter Embedded";
+      src: url("data:font/woff2;base64,BASE64文字列") format("woff2");
+      font-style: normal;
+      font-weight: 100 900;
+    }
+
+    svg.keymap {
+      background-color: #ffffff;
+      font-family: "Inter Embedded", sans-serif;
+    }
+
+    rect.key {
+      fill: #ffffff;
+    }
