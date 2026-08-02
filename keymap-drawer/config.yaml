@@ -44,6 +44,23 @@ parse_config:
     # Enter
     "&kp ENTER": "⏎"
 
+    # Media Keys
+    "&kp MEDIA_PLAY_PAUSE": "⏯"
+    "&kp MEDIA_PREV_TRACK": "⏮"
+    "&kp MEDIA_NEXT_TRACK": "⏭"
+
+    # Backspace
+    "&kp BACKSPACE": "⌫"
+
+    # Tab
+    "&kp TAB": "⇥"
+
+    # Caps Lock
+    "&kp CAPS_LOCK": "⇪"
+
+    # Delete
+    "&kp DELETE": "⌦"
+
     # Arrows
     "&kp RIGHT": "→"
     "&kp LEFT": "←"
