@@ -29,7 +29,7 @@ layers:
   - N
   - M
   - {t: ',', h: '1'}
-  - '&mouse_gesture_kp 0 DOT'
+  - .
   - {t: /, h: ⇧}
   - ⌃
   - ⌥
@@ -102,7 +102,7 @@ layers:
   - MB1
   - {t: ↑, type: held}
   - MB2
-  - MB2
+  - MB3
   - {t: ▽, type: trans}
   - ⌘⌥
   - ⌥⇧
@@ -220,7 +220,7 @@ layers:
   - MB2
   - {type: held}
   - MB1
-  - {t: ▽, type: trans}
+  - MB3
   - /
   - '4'
   - '5'
@@ -229,7 +229,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - MB3
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   - '1'
