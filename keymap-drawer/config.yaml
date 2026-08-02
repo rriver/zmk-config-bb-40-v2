@@ -6,12 +6,12 @@ draw_config:
     language-latin: |
       <svg viewBox="0 0 44 34" xmlns="http://www.w3.org/2000/svg">
         <path d="M9 1H35A8 8 0 0 1 43 9V25A8 8 0 0 1 35 33H9A8 8 0 0 1 1 25V9A8 8 0 0 1 9 1Z" style="fill:#000000"/>
-        <text x="22" y="24" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#ffffff">A</text>
+        <text x="22" y="17" text-anchor="middle" dominant-baseline="central" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#ffffff">A</text>
       </svg>
     language-japanese: |
       <svg viewBox="0 0 44 34" xmlns="http://www.w3.org/2000/svg">
         <path d="M9 1H35A8 8 0 0 1 43 9V25A8 8 0 0 1 35 33H9A8 8 0 0 1 1 25V9A8 8 0 0 1 9 1Z" style="fill:#000000"/>
-        <text x="22" y="24" text-anchor="middle" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="21" font-weight="600" fill="#ffffff">あ</text>
+        <text x="22" y="17" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="21" font-weight="600" fill="#ffffff">あ</text>
       </svg>
   svg_extra_style: |
     svg.keymap {
