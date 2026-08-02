@@ -1,6 +1,6 @@
 draw_config:
   dark_mode: false
-  glyph_tap_size: 15
+  glyph_tap_size: 14
   outer_pad_h: 100
 
   glyphs:
@@ -23,7 +23,7 @@ draw_config:
     }
 
     rect.key {
-      fill: #dedede;
+      fill: #ededed;
     }
 
     rect.combo,
