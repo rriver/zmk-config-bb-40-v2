@@ -32,7 +32,8 @@ draw_config:
 
 parse_config:
   raw_binding_map:
-    "&mouse_gesture 0": "$$fa:solid/computer-mouse$$"
+    "&kp SPACE": "$$fa:regular/window-minimize$$"
+    "&mouse_gesture": "$$fa:solid/computer-mouse$$"
     "&to_layer_0 LANGUAGE_1": "$$language-latin$$"
     "&to_layer_0 LANGUAGE_2": "$$language-japanese$$"
     "&mkp MB1": "MB1"
@@ -132,7 +133,8 @@ parse_config:
     TAB: ⇥
     CAPSLOCK: ⇪
     CAPS_LOCK: ⇪
-    DELETE: $$fa:solid/trash-can$$
+    DELETE: ⌦
+    DEL: ⌦
     LEFT: ←
     LEFT_ARROW: ←
     RIGHT: →
