@@ -7,7 +7,7 @@ on:
       - "config/*.keymap"
       - "config/*.json"
       - "config/*.dtsi"
-      - "config.yaml"
+      - "keymap-drawer/config.yaml"
       - ".github/workflows/draw-keymaps.yml"
 
 jobs:
