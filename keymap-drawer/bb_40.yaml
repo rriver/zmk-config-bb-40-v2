@@ -29,7 +29,7 @@ layers:
   - N
   - M
   - {t: ',', h: '1'}
-  - $$fa:solid/computer-mouse$$
+  - '&mouse_gesture_kp 0 DOT'
   - {t: /, h: ⇧}
   - ⌃
   - ⌥
