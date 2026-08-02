@@ -1,17 +1,17 @@
 draw_config:
   dark_mode: false
-  glyph_tap_size: 24
+  glyph_tap_size: 18
 
   glyphs:
     language-latin: |
       <svg viewBox="0 0 44 34" xmlns="http://www.w3.org/2000/svg">
-        <rect x="1" y="1" width="42" height="32" rx="8" fill="#dcecff"/>
-        <text x="22" y="24" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#174a76">A</text>
+        <rect x="1" y="1" width="42" height="32" rx="8" fill="#000000"/>
+        <text x="22" y="24" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#ffffff">A</text>
       </svg>
     language-japanese: |
       <svg viewBox="0 0 44 34" xmlns="http://www.w3.org/2000/svg">
-        <rect x="1" y="1" width="42" height="32" rx="8" fill="#dcecff"/>
-        <text x="22" y="24" text-anchor="middle" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="21" font-weight="600" fill="#174a76">あ</text>
+        <rect x="1" y="1" width="42" height="32" rx="8" fill="#000000"/>
+        <text x="22" y="24" text-anchor="middle" font-family="-apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="21" font-weight="600" fill="#ffffff">あ</text>
       </svg>
   svg_extra_style: |
     svg.keymap {
@@ -32,8 +32,7 @@ draw_config:
 
 parse_config:
   raw_binding_map:
-    "&mouse_gesture_0": "$$fa:solid/computer-mouse$$"
-    "&mouse_gesture_kp 0 DOT": "$$fa:solid/computer-mouse$$"
+    "&mouse_gesture 0": "$$fa:solid/computer-mouse$$"
     "&to_layer_0 LANGUAGE_1": "$$language-latin$$"
     "&to_layer_0 LANGUAGE_2": "$$language-japanese$$"
     "&mkp MB1": "MB1"
