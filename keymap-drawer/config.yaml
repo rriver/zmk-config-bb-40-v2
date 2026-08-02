@@ -17,13 +17,13 @@ draw_config:
 
   svg_extra_style: |
     svg.keymap {
-      background-color: #bbbbbb;
+      background-color: #1f2428;
       font-family: Inter, sans-serif;
       fill: #24292e;
     }
 
     rect.key {
-      fill: #eeeeee;
+      fill: #dedede;
     }
 
     rect.combo,
@@ -40,6 +40,7 @@ draw_config:
 
     text.label {
       font-size: 20px;
+      fill: #ffffff;
       font-weight: 700;
       stroke: none;
       transform: translateY(20px);
