@@ -35,12 +35,12 @@ layers:
   - ⌥
   - ⌘
   - {t: '&to_layer_0 LANGUAGE_2', h: '1'}
-  - {t: '$$fa:solid/delete-left$$', h: '2'}
+  - {t: ⌫, h: '2'}
   - {t: LANGUAGE 1, h: '3'}
   - ⌘
   - {t: SPACE, h: '3'}
   - $$fa:solid/globe$$
-  - {t: ESC, h: '4'}
+  - {t: ⎋, h: '4'}
   '1':
   - '!'
   - '@'
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - ESCAPE
+  - ⎋
   - '`'
   - $$fa:solid/backward-step$$
   - $$fa:solid/circle-play$$
